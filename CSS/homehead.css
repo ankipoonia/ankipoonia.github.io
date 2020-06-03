@@ -19,7 +19,7 @@
   #img02 {
     float: left;
     width: 300px;
-    height: 600px;
+    height: 700px;
   }
   #text1 {
     text-align: center;
@@ -66,14 +66,25 @@
     border: 2px;
     border-radius: 10px;
     border-style: solid;
-    width: 70%;
-    margin-left: 300px;;
+    border-color: #242a2b;
+    width: 60%;
+    margin-left: 300px;
+    background-color: #242a2b;
+    color: white;
   }
   .edu img {
     border-radius: 50%;
     width: 100px;
     float: left;
     padding: 10px;
+  }
+  .edu p {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+  }
+  .edu h1,h2 {
+    font-family: 'Patrick Hand', cursive;
   }
   .headline {
     font-size: 60px;
