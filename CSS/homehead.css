@@ -9,6 +9,7 @@
     text-align: center;
     font-size: 35px;
     border-radius: 20px;
+    font-family: 'Courgette', cursive;
   }
   #img01 {
     border-radius: 50%;
@@ -57,5 +58,7 @@
     text-align: center;
     color: white;
     border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
   }
 </style>
