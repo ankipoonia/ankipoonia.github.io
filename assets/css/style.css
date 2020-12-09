@@ -827,7 +827,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #2f9c84;
   font-size: 26px;
 }
 
@@ -864,7 +864,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #45505b !important;
 }
 
 @media (min-width: 992px) {
