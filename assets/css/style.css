@@ -1024,7 +1024,9 @@ section {
 }
 
 #thanks {
+  display: none;
   background: #2f9c84;
+  background-color: #2f9c84;
   color: #fff;
   border-radius: 10px;
 }

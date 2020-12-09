@@ -502,19 +502,17 @@
                   <textarea class="form-control" name="message" rows="6" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
                   <div class="validate"></div>
                 </div>
-                <div id="cform">
+                <div id="thanks">
+                  <div class="d-flex justify-content-center form-group" style="margin-bottom:0;">
+                    <p style="font-size:20px;margin-bottom:0;">Thanks!! &nbsp;</p>
+                    <i id="smile1" class='bx bxs-smile'></i>
+                  </div>
+                  <div class="d-flex justify-content-center form-group">
+                    <p style="font-size:20px;">:) I Received Your Details (:</p>
+                  </div>
                 </div>
                 <div class="text-center"><button type="submit">Send Message</button></div>
               </form>
-              <div id="thanks" style="display:none;">
-                <div class="d-flex justify-content-center form-group" style="margin-bottom:0;">
-                  <p style="font-size:20px;margin-bottom:0;">Thanks!! &nbsp;</p>
-                  <i id="smile1" class='bx bxs-smile'></i>
-                </div>
-                <div class="d-flex justify-content-center form-group">
-                  <p style="font-size:20px;">:) I Received Your Details (:</p>
-                </div>
-              </div>
             </div>
 
           </div>
@@ -567,7 +565,8 @@
 
     <script>
       function contactForm() {
-        document.getElementById('cform').innerHTML = document.getElementById('thanks').innerHTML;
+        var x = document.getElementById("thanks");
+        x.style.display = "block";
       }
     </script>
 
