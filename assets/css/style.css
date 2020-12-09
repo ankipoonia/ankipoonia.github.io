@@ -1023,20 +1023,14 @@ section {
   background: #2f9c84;
 }
 
+#thanks {
+  background: #2f9c84;
+  color: #fff;
+  border-radius: 10px;
+}
+
 #smile1 {
-  font-size: 40px;
-}
-#smile2 {
-  font-size: 40px;
-  display: none;
-}
-
-#smile1:hover {
-  display: none;
-}
-
-#smile1:hover + #smile2 {
-  display: block;
+  font-size: 30px;
 }
 
 @-webkit-keyframes animate-loading {
