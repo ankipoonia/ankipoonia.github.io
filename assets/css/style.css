@@ -284,7 +284,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1:hover {
-  color: #2f9c84;
+  background: #1EDB7D;
+	background: -webkit-linear-gradient(bottom,#1EDB7D,#0EE7DB);
+	background: -moz-linear-gradient(bottom,#1EDB7D,#0EE7DB);
+	background: linear-gradient(to top,#1EDB7D,#0EE7DB);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	transition: color .2s ease-out;
 }
 
 #hero p {
@@ -443,7 +450,10 @@ section {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #298a74 0%, #2f9c84 100%);
+  background: #1EDB7D;
+  background: -webkit-linear-gradient(top, #1EDB7D, #0EE7DB);
+  background: -moz-linear-gradient(top, #1EDB7D, #0EE7DB);
+  background: linear-gradient(to bottom, #1EDB7D, #0EE7DB);
   padding: 0;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
